@@ -226,14 +226,40 @@
                                     </p>
                                 </div>
                             
+                                <style>
+                                    .column {
+                                        text-align: center; /* This centers the content horizontally */
+                                    }
+                                    .contact-info {
+                                        display: inline-block; /* This makes sure both contacts are displayed in a row */
+                                        margin-right: 20px; /* Adjust as needed to create space between contacts */
+                                        vertical-align: top; /* Aligns contacts to the top */
+                                    }
+                                    .profile-picture {
+                                        display: block; /* Ensures the image takes the full width available */
+                                        margin: 0 auto; /* Centers the image */
+                                    }
+                                </style>
+                                
                                 <div class="column">
                                     <h4>Contact Info</h4>
-                                    <p>
+                                    <div class="contact-info">
                                         <img class="profile-picture" src="elaine.jpg" alt="elaine's Profile Picture" height="auto" width="100">
-                                        <a href="https://www.google.com/gmail/about/">ggrasya18@gmail.com</a><br>
-                                        Phone: 09461286626</p><br>
+                                        <div>
+                                            <a href="https://www.google.com/gmail/about/">ggrasya18@gmail.com</a><br>
+                                            Phone: 09461286626
+                                        </div>
+                                    </div>
+                                    <div class="contact-info">
+                                        <img class="profile-picture" src="contact2.jpg" alt="Second Contact's Profile Picture" height="auto" width="100">
+                                        <div>
+                                            <a href="mailto:secondcontact@example.com">Javierivy573@gmail.com</a><br>
+                                            Phone: 09560275811
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                                
+                                
                             <style>
                                 .contact-info {
                                     display: flex;
